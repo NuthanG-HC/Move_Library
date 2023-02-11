@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="title" placeholder="Enter the title"/>
+    <input type="text" id="genre" placeholder="Enter the genre"/>
+    <div id="main">
+    <button onclick="dropfunc()" class="dropbtn">DropDown</button>
+    <div id="hey" class="dropDown">
+    <button id="search"> Search/Both</button><br>
+    <button id="titleSort" onclick="sortByTitle()"> SortByTitle</button><br>
+    <button id="titleGenre"  onclick="sortByGenre()"> SortByGenre</button><br>
+    <button id="Both"  onclick="sortByBoth()"> sortByBoth</button>
+    </div>
+    </div>
+    <h1 id="h1"><i>Here is the list of movies</i></h1>
+    <ul id="results"></ul>
+    <i id="italic"><b>The count of movies are:</b></i>
+    <ul id="count"></ul>
+    <h2 id="message"></h2>
+    <script src="index.js"></script>
+</body>
+</html>
